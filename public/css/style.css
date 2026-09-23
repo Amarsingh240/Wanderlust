@@ -9,12 +9,12 @@ body {
 }
 main{
     flex:1
-}
+ }
 
-.container,
+/* .container,
 .container-fluid {
     flex: 1
-}
+}  */
 
 .navbar {
     height: 5rem;
@@ -69,6 +69,7 @@ main{
 .listing-card {
     border: none !important;
     margin-bottom: 2rem;
+  
     /* display: flex !important;
     flex-wrap: wrap !important;
     justify-content: space-between !important; */
@@ -143,6 +144,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    
 
 }
 
