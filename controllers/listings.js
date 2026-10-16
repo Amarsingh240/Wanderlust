@@ -8,7 +8,7 @@ module.exports.index = async (req, res) => {
 
     const { location } = req.query;
 
-    console.log("SEARCH LOCATION:", location);
+    // console.log("SEARCH LOCATION:", location);
 
     let allListings;
 
@@ -20,8 +20,8 @@ module.exports.index = async (req, res) => {
         allListings = await Listing.find({});
     }
 
-    console.log("FOUND LISTINGS:", allListings.length);
-    console.log(allListings.map(listing => listing.location));
+    // console.log("FOUND LISTINGS:", allListings.length);
+    // console.log(allListings.map(listing => listing.location));
 
     res.render("listings/index.ejs", { allListings });
 

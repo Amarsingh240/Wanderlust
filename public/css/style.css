@@ -49,8 +49,12 @@ main{
 }
 
 .f-info-socials i {
+    color:black;
     margin-right: 1rem;
     font-size: 1.2rem;
+}
+.f-info-socials i:hover {
+    color: #fe424d;
 }
 
 .f-info {
@@ -60,7 +64,7 @@ main{
     background-color: #ebebeb;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: space-between;
+    align-items: center;
 
 }
 
@@ -95,6 +99,7 @@ main{
     text-decoration: none;
 }
 
+
 /* card-effect */
 .card-img-overlay {
     opacity: 0;
@@ -120,11 +125,16 @@ main{
 /* show page */
 .show-image {
     height: 30vh;
+    width: 100% !important;
+    height: 55vh !important;
+    object-fit: cover !important;
+    border-radius: 1rem !important;
 }
 
 .show-card {
     padding-left: 0;
     padding-right: 0;
+    border: none !important;
 }
 
 .btns {
@@ -139,6 +149,7 @@ main{
 }
 
 /* icon style */
+
 #filters {
     display: flex;
     flex-wrap: wrap;
@@ -182,6 +193,7 @@ main{
 
 
 
+
 .search-btn {
     background-color: #fe424d;
     color: #fff;
@@ -205,3 +217,4 @@ main{
     padding: 0.5rem 3rem 0.5rem 3rem;
     font-size: 1rem;
 }
+
